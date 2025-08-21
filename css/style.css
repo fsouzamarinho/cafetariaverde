@@ -1,0 +1,92 @@
+:root{
+    --greenprimary:#0f2a26;
+    --greensecondary:  #1e3932;
+    --greentiarty:   #2d6a4f;
+    --cream: #f5f3ee;
+    --text: #1f2937;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;  
+}
+
+body{
+    font-family: system-ui, -apple-system, 'Segoe UI','Open Sans', 'Helvetica Neue', sans-serif;
+    color : var(--text);
+    background: var(--cream);
+}
+
+a{
+    color:inherit;
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+}
+
+header{
+    background-color: white;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.container{
+    max-width: 1110px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+.topbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.brand-logo{
+    width: 40px;
+    height: 40px;
+}
+.brand-name{
+    font-weight: 700;
+    color: var(--greensecondary)
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    height: 100%;
+}
+.cta{
+    display: flex;
+    gap: 16px;
+}
+
+.btn{
+    padding: 8px 16px;
+    border: 1px solid var(--greensecondary);
+    border-radius: 999px;
+    background-color: white;
+}
+
+.btn:hover{
+    background-color: #f7fffb;
+}
+
+.btn-fill{
+    background-color: var(--greensecondary);
+    color: white;
+}
+
+.btn-fill:hover{
+    background-color: #225d50;
+}
