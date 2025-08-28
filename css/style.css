@@ -30,6 +30,7 @@ img{
 header{
     background-color: white;
     border-bottom: 1px solid #e5e7eb;
+    position: fixed;
 }
 
 .container{
@@ -89,4 +90,32 @@ nav ul{
 
 .btn-fill:hover{
     background-color: #225d50;
+}
+
+.hero {
+  background: linear-gradient(120deg, var(--greenprimary), var(--greensecondary));
+  color: #fff
+}
+
+.hero-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 24px;
+  padding: 36px 0
+}
+
+.btn-row{
+    display: flex;
+    gap: 10px;
+    margin-top: 16px;
+}
+
+.hero-art{
+    display: flex;
+    justify-content: center;
+}
+
+.hero-text{
+    min-width: 280px;
 }
